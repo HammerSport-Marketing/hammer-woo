@@ -1537,7 +1537,7 @@ p.demo_store,
     border-radius: 36px;
     color: #fff;
     padding: 1em!important;
-    .woocommerce-table {
+    .woocommerce-table, woocommerce-customer-details > address {
       border: 1px solid #fff!important;
       width: auto;
       background-color: #fff;
