@@ -1,0 +1,23 @@
+/**
+ * WooCommerce CSS Variables
+ */
+
+$woocommerce:       #273F6C!default;
+$green:         	#7ad03a !default;
+$red:           	#a00 !default;
+$orange:        	rgb(216, 96, 45) !default;
+$blue:          	rgb(72, 97, 176) !default;
+
+$primary:           $woocommerce!default;                                    // Primary color for buttons (alt)
+$primarytext:       desaturate(lighten($primary, 50%), 18%) !default;    // Text on primary color bg
+
+$secondary:         desaturate(lighten($primary, 40%), 21%) !default;    // Secondary buttons
+$secondarytext:     desaturate(darken($secondary, 60%), 21%) !default;   // Text on secondary color bg
+
+$highlight:         adjust-hue($primary, 150deg) !default;               // Prices, In stock labels, sales flash
+$highlightext:      desaturate(lighten($highlight, 50%), 18%) !default;  // Text on highlight color bg
+
+$contentbg:         #fff !default;                                       // Content BG - Tabs (active state)
+$subtext:           #767676 !default;                                    // small, breadcrumbs etc
+
+$background: linear-gradient(90deg, $blue 14.25%, $orange 100%);
